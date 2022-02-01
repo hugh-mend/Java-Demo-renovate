@@ -157,7 +157,7 @@
 								<requireJavaVersion>
 									<version>[1.6,)</version>
 									<message>[ERROR] OLD JDK [${java.version}] in use.
-										EasyBuggy requires vJDK 1.6 or later</message>
+										EasyBuggy requires JDK 1.6 or later</message>
 								</requireJavaVersion>
 							</rules>
 						</configuration>
