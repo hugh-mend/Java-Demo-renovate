@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir /opt/thunderscan && curl -LJO https://download.defensecode.com/latest/clients/tscli.tar.gz
           tar -C /opt/thunderscan -xzf ./tscli.tar.gz && rm tscli.tar.gz
-      # Run ThunderScan CLI
+      # Run ThunderScan CLI 
       - name: Run Thunderscan SAST
         run: |
           /opt/thunderscan/tscli --git ${{github.server_url}}/${{github.repository}} --branch ${{github.ref_name}} \
