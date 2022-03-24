@@ -15,7 +15,7 @@ jobs:
       SASTCLI_TARGET_APPLICATION: ${{github.event.repository.name}}
 
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v2
       # Download CLI
       - name: Download CLI
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Check out repository
         uses: actions/checkout@v2
       # CodeQL
       - name: Initialize CodeQL
