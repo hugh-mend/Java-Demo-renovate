@@ -9,7 +9,6 @@
     "enableSAST": true
   },
   "checkRunSettings": {
-    "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
   },
